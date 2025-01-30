@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="https://github.com/senabibi/SQLiteAPICore">
-    <img src="https://github.com/senabibi/SQLiteAPICore/blob/main/logo.png" alt="Logo" width="800" height="500">
+    <img src="https://github.com/senabibi/SqliteAPICore/blob/main/Designer.jpeg" alt="Logo" width="500" height="500">
   </a>
   <h3 align="center">SQLiteAPICore</h3>
   <p align="center">
@@ -118,42 +118,37 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    pip install -r requirements.txt
   ```
 
+
+
 4.**Set Up the Database:**:
  Run the following commands to apply migrations and create the database:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
   ```
+ <div align="center">
+    <img src="https://github.com/senabibi/SqliteAPICore/blob/main/Screenshot%202025-01-30%20100325.png" alt="Logo" width="500" height="500">
+  </div>
+ 
 5.**Create a Superuser:**:
  Create a superuser account to access the Django admin panel:
    ```bash
    python manage.py createsuperuser
   ```
+
+  
 6.**Run the Development Server:**:
    ```bash
    python manage.py runserver
   ```
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div align="center">
+    <img src="https://github.com/senabibi/SqliteAPICore/blob/main/Screenshot%202025-01-30%20100542.png" alt="Post ERD">
+</div>
 
 
 
 ## Usage
 
-<div align="center">
-    <img src="https://github.com/senabibi/PostgresqlTopTen/blob/main/POST.png" alt="Post ERD">
-</div>
 
 This project demonstrates how to create a simple API using Django and Django REST Framework, which interacts with a SQLite database. It features a basic Product model with fields like name, price, and description, and provides API endpoints for performing CRUD operations.
 
